@@ -1,13 +1,279 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola Mundo</title>
+  <meta charset="UTF-8">
+  <title>Lorena's Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fontawesome CDN Link -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- Navigation menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio Website</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#Research">Research</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
 
-    <h1>Hola, Mundo!</h1>
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm Lorena</div>
+        <div class="text-three">Data Analyst | Data Scientist</div>
+        <div class="text-four">From Colombia</div>
+      </div>
+      <p text-align="left">
+        <a href="https://www.linkedin.com/in/lorena-lucero/" target="_blank" rel="noreferrer">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="bash" width="60" height="60"/>
+        </a>
+        <a href="https://github.com/Loreluc" target="_blank" rel="noreferrer">
+          <img src="https://cdn.cdnlogo.com/logos/g/55/github.svg" alt="aws" width="60" height="60"/>
+        </a>
+      </p>
+    </div>
+  </section>
 
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="images/data-woman.gif" alt="">
+        </div>
+        <div class="right">
+          <div class="topic">Data Is My Passion</div>
+          <p>Electronics engineer and master's student in Computer Engineering. Passionate about data analysis, data science, artificial intelligence, machine learning, deep
+            learning, NLP; generative AI. I consider myself a self-taught individual with the ability to work effectively in a team. I'm always looking for learning new skills, technologies and also improving the skills that I already know. <br> <br>
+            My goal is to pursue a challenging career in an organization that allows me to utilize my full potential and contribute to the development of my skills, abilities, and knowledge.</p>
+          <div class="button">
+            <!-- <button>Download CV</button> -->
+            <a href="cv/CV_Lorena_L.pdf"><button>Download CV</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Skill Section Start -->
+  <!-- Section Tag and Other Div will same where we need to put same CSS -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic">Skills Reflects Our Knowledge</div>
+          <p>We must comprehend that digital technologies and artificial intelligence are reshaping the work environment. Consequently, the current workforce needs to acquire new skills and learn to adapt continuously as new professional opportunities emerge.</p>
+          <div class="experience">
+            <div class="num">Learning </div>
+            <div class="exp">is an endless <br> journey.</div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">Python</div>
+            <div class="per">70%</div>
+          </div>
+          <div class="box">
+            <div class="topic">SQL</div>
+            <div class="per">60%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Microsoft Power BI</div>
+            <div class="per">70%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Git</div>
+            <div class="per">65%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My experience Section Start -->
+  <section class="services" id="experience">
+    <div class="content">
+      <div class="title"><span>Work Experience</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <!-- <i class="fas fa-desktop"></i> -->
+            <!-- <a target="_blank" href="https://icons8.com/icon/33039/amazon-web-services">Amazon Web Services</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
+            <i class="fas fa-chart-bar" ></i>
+          </div>
+          <div class="topic" ><strong>Data analyst</strong></div>
+          <p><strong>Company Name:</strong> Shuler Weage</p>
+          <p><strong>Duration:</strong> [Jun 2020] - [Jan 2021]</p> <br>
+          <p>My task was to perform document management, meeting planning, and tasks for developers. In these activities, I implemented Python scripts and SQL
+            queries to optimize these tasks. Additionally, I automated repetitive tasks, such as querying electronic component web pages through web scraping and APIs.
+            Using this information, reports and files were generated with libraries likePandas and Matplotlib.</p>
+        </div>
+
+        <div class="box">
+          <div class="icon">
+            <!-- <i class="fas fa-paint-brush"></i> -->
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="topic"><strong>Project manager | Data analyst | Electronic engineer</strong></div>
+          <p><strong>Company Name:</strong> Engycol Group SAS</p>
+          <p><strong>Duration:</strong> [Feb 2021] - [Jan 2022]</p> <br>
+          <p>My job involved coordinating the operational team to ensure the achievement of personnel goals, design and sizing of solar systems, technical proposals, and
+            budgeting for both public and private tenders. To enhance performance in these tasks, I developed Python scripts for sending, receiving, and analyzing
+            emails to various suppliers. I also conducted sales data analysis, connecting to the company's accounting software databases. The extracted information was
+            transformed using the Pandas library and visualized with Power BI.</p>
+        </div>
+
+        <div class="box">
+          <div class="icon">
+            <!-- <i class="fas fa-chart-line"></i> -->
+            <i class="fas fa-chart-pie"></i>
+          </div>
+          <div class="topic"><strong>Project manager | Data analyst</strong></div>
+          <p><strong>Company Name:</strong> EMSERPUVAG</p>
+          <p><strong>Duration:</strong> [Jul 2022] - [Mar 2023]</p> <br>
+          <p>My work focuses on carrying out the projection of administrative acts, supervising photovoltaic solar installations in accordance with contractual
+            requirements, presenting technical reports on field progress, and detailing updates related to potential compliance issues. To carry out these activities
+            efficiently and organized, I created an interactive Power BI dashboard from datasets generated with daily information. This dashboard reflected the
+            technical progress at each installation point using geolocation techniques on maps.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="education">
+    <div class="content">
+      <div class="title"><span>Education</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-pencil-alt"></i>
+          </div>
+          <div class="topic">Master's student in Computer Engineering</div>
+          <p><strong>University:</strong> Universidad de Alicante</p>
+          <p><strong>Period:</strong> [2023] - [2024]</p>
+          <p><strong>Country:</strong> Spain</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="topic">Electronic Engineer</div>
+          <p><strong>University:</strong> Corporación Universitaria Autónoma del Cauca</p>
+          <p><strong>Period:</strong> [2014] - [2021]</p>
+          <p><strong>Country:</strong> Colombia</p>
+          <p>Project based on digital image processing libraries such as OpenCV for the verification of drinking water quality.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <div class="topic">Power BI - Data analysis and business intelligence course</div>
+          <p><strong>Academy:</strong> Udemy</p>
+          <p><strong>Period:</strong> [2023] - [2023]</p>
+          <p><strong>Credential ID:</strong> UC-8dbf9434-b69a-48ca-b431-87c6eaa19ac2</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="Research">
+    <div class="content">
+      <div class="title"><span>Research: seedbed member</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="topic">Hult Prize 2019 National Competition</div>
+          <p><strong>University:</strong> Corporación Universitaria Autónoma del Cauca</p>
+          <p><strong>Period:</strong> [2019]</p>
+          <p><strong>Country:</strong> Colombia</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-microscope"></i>
+          </div>
+          <div class="topic">COVIDA</div>
+          <p><strong>University:</strong> Corporación Universitaria Autónoma del Cauca</p>
+          <p><strong>Period:</strong> [2020]</p>
+          <p><strong>Country:</strong> Colombia</p>
+          <p>Development that allowed the implementation of a device for the sterilization of personal objects, especially those of medical personnel, for the denaturation of viruses and bacteria during the COVID19 sanitary emergency.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-pencil-alt"></i>
+          </div>
+          <div class="topic">International Engineering Education Meeting ACOFI 2020</div><br>
+          <p><strong>Academy:</strong> Corporación Universitaria Autónoma del Cauca</p>
+          <p><strong>Period:</strong> [2020]</p>
+          <p><strong>Country:</strong> Colombia</p>
+          <p><strong>ISBN:</strong><a href="https://www.acofi.edu.co/wp-content/uploads/2020/09/Memorias-EIEI-ACOFI-2020.pdf" target="_blank"> 978-958-680-088-4</a></p>
+          <p><strong>DOI:</strong><a href="https://doi.org/10.26507/ponencia.849" target="_blank"> https://doi.org/10.26507/ponencia.849</a></p>
+          <p>Article "Fuzzy logic based system for the detection of the level of risk of contracting diseases related to the consumption of unsafe water."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="awards">
+    <div class="content">
+      <div class="title"><span>Awards</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-medal"></i>
+          </div>
+          <div class="topic">Honorable mention in the final degree project.</div>
+          <p><strong>University:</strong> Corporación Universitaria Autónoma del Cauca</p>
+          <p><strong>Year:</strong> [2021]</p>
+          <p><strong>Country:</strong> Colombia</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="topic">Winner in CIENCIATHON 2023</div>
+          <p><strong>University:</strong> Universidad de Alicante</p>
+          <p><strong>Year:</strong> [2023]</p>
+          <p><strong>Country:</strong> Spain</p>
+          <p>The 5th edition of this Science and Technology Marathon took place from October 20 to 22 under the slogan "Challenge cancer with innovative ideas and meet the challenge of the Spanish Association Against Cancer".</p>
+          <p><a href="https://origin.eps.ua.es/servicios/noticiaeps/05102/es/eps/ganadores-en-cienciathon-2023" target="_blank"><strong>Lifeline Team!</strong></a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <!-- <span>Created By <a href="#">Lorena</a> | &#169; 2024 All Rights Reserved</span>-->
+      <p><em>"The only way to do great work is to love what you do."</em> <br>- Steve Jobs</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
