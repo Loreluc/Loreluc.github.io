@@ -195,9 +195,6 @@ nav.sticky .menu-btn{
   margin: 14px 0;
 }
 
-/* About Section Styling */
-/* Those Elements Where We Have Apply Same CSS,
- I'm Selecting Directly 'Section Tag' and 'Class'  */
 section{
   padding-top: 40px;
 }
@@ -255,7 +252,7 @@ section  .topic{
   color: #0E2431;
   font-size: 25px;
   font-weight: 500;
-  height: 80px;
+  height: 100px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -310,7 +307,7 @@ section .button button:hover{
 }
 .skills-details .experience .num{
   color: #0E2431;
-  font-size: 80px;
+  font-size: 60px;
 }
 .skills-details .experience .exp{
   color: #0E2431;
@@ -385,19 +382,6 @@ section .button button:hover{
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
   color: #fff;
-}
-/* Contact Me CSS */
-.contact{
-  background: #F0F8FF;
-}
-.contact .content{
-  margin: 0 auto;
-  padding: 30px 0;
-}
-.contact .text{
-  width: 80%;
-  text-align: center;
-  margin: auto;
 }
 
 /* Footer CSS */
@@ -526,10 +510,6 @@ footer .text span a:hover{
     margin: 20px 0;
     width: 100%;
   }
-  .contact .text{
-    width: 100%;
-}
-}
 
 @media (max-width: 500px){
   .home .text-two{
